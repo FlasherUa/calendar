@@ -1,0 +1,4 @@
+CREATE TABLE `routes` ( `id` INT( 5 ) UNSIGNED NOT NULL AUTO_INCREMENT, PRIMARY KEY (`id`),
+`title` VARCHAR( 50 ) NOT NULL,
+`text` TEXT  NOT NULL,
+`Suspended` ENUM( 'no','yes' )   NOT NULL);
